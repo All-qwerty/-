@@ -54,8 +54,3 @@ ax.legend(loc='upper right', framealpha=1)
 plt.tight_layout()
 plt.savefig('final_comparison.png', dpi=300, bbox_inches='tight')
 plt.close()
-
-# Создание QR-кода с ссылкой на код (пример)
-import qrcode
-qr = qrcode.make('https://github.com/your-repo')
-qr.save('qrcode_repo.png')
